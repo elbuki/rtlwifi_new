@@ -32,6 +32,7 @@ git clone https://github.com/lwfinger/rtlwifi_new.git
 cd rtlwifi_new
 make
 sudo make install
+// NOTE TO MYSELF: After this, it should be working
 sudo modprobe -r <<YOUR WIRELESS DRIVER CODE>>
 sudo modprobe <<YOUR WIRELESS DRIVER CODE>>
 
